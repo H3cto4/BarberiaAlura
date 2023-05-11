@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* menú de navegación */
 header {
   display: flex;
   justify-content: space-between;
@@ -14,6 +15,7 @@ header {
   padding: 20px;
   background-color: #333;
   color: #fff;
+  border-radius: 20px;
 }
 
 .logo-product img {
@@ -24,34 +26,71 @@ header {
   border-radius: 20px;
 }
 
-ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: 100px;
- 
+  margin-right: 50px;
 }
 
-li {
+nav li {
   margin-left: 50px;
 }
 
-li:first-child {
+nav li:first-child {
   margin-left: 0;
 }
 
-a {
+nav a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   padding: 5px;
   border-radius: 5px;
- 
 }
 
-a:hover {
+nav a:hover {
   background-color: #fff;
   color: #333;
+}
+
+/* sección de contenido */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+}
+
+main li {
+  margin: 20px;
+  border: 4px solid black;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+
+
+
+main h2 {
+  margin-top: 10px;
+}
+
+main img {
+  width: 80%;
+  height: 60%;
+  object-fit: cover;
+}
+
+main p {
+  margin-top: 10px;
+  font-size: 1.2em;  
+  font-weight: bold;
 }
