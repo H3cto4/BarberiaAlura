@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .titulo-centrado{
-  
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2{
@@ -20,12 +24,56 @@ em strong {
   color: #1746A2;
 }
 
-.title-principal{
-  padding-left: 20px;
-  margin: bottom 10px;
+/* aqui va el header de la pagina con su navbar*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.title-principal {
+  margin: 0;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: 100px;
+  
 }
 
 
+li {
+  margin-left: 20px;
+  
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* aqui empieza el banner*/
 .banner {
   width: 100%;
   height: 100vh;
@@ -73,13 +121,14 @@ h3{
 .diferenciales{
   background-color: #ffffff;
   padding: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul{
   display: inline-block;
   vertical-align: top;
   width: 15%;
-  margin-right: 10%;
+  margin-right: 150px;
   font-size: 1.2em;
 }
 
@@ -96,83 +145,7 @@ p{
 }
 
 
-footer {
-  background-color: #1a1a1a;
-  color: #fff;
-  padding: 40px 0;
-  font-size: 14px;
- 
-}
 
-.footer-container {
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
 
-.logo img {
-  max-width: 100%;
-  background-color: #fff;
-  border-radius: 15px;
-  position: relative;
-  margin-top: 20px;
-  justify-content: center;
-}
+/*styles  for footer*/
 
-.contacto h3{
-  text-align: center;
-}
-
-.contacto ul {
-  list-style: none;
-  padding-left: 0;
-  display: inline;
-  
-  
-}
-
-.redes-sociales ul {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  text-align: center;
-  margin-left: 20px;
-  display: inline;
-  
-}
-
-.redes-sociales ul li {
-  margin-right: 20px;  
-  text-align: center;
- 
-  
-  
-}
-
-.redes-sociales ul li:last-child {
-  margin-right: 0;
-  text-align: center;
-  justify-content: center;
-}
-
-.redes-sociales ul li a {
-  color: #fff;
-  font-size: 24px;
-}
-
-.creditos {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 12px;
-}
-
-.creditos p {
-  margin: 0;
-}
-
-.creditos a {
-  color: #fff;
-  text-decoration: underline;
-}
