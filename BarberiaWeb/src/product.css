@@ -16,6 +16,7 @@ header {
   background-color: #333;
   color: #fff;
   border-radius: 20px;
+  
 }
 
 .logo-product img {
@@ -61,6 +62,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 main ul {
