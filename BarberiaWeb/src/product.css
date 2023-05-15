@@ -16,7 +16,6 @@ header {
   background-color: #333;
   color: #fff;
   border-radius: 20px;
-  
 }
 
 .logo-product img {
@@ -27,23 +26,24 @@ header {
   border-radius: 20px;
 }
 
-nav ul {
+nav {
+  margin-right: 50px;
+  max-width: 700px;
+}
+
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: 50px;
 }
 
-nav li {
-  margin-left: 50px;
+li {
+  margin-left: 20px;
+  display: inline-block;
 }
 
-nav li:first-child {
-  margin-left: 0;
-}
-
-nav a {
+a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -52,11 +52,10 @@ nav a {
   border-radius: 5px;
 }
 
-nav a:hover {
+a:hover {
   background-color: #fff;
   color: #333;
 }
-
 
 
 /* sección de contenido */

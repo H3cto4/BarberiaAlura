@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.title-principal {
+  margin: 0 auto;
+  margin-left: 80px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: 50px;
+  
+}
+
+li {
+  margin-left: 20px;
+  
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+
+
+/*estilos del footer*/
+
+footer{
+  text-align: center;
+  background: url(../img/bg.jpg);  
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.copyright{
+  color: #fff;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+form{
+  margin: 40px 0;
+  
+}
+
+form label, form p{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padre{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.btn-enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: orange;
+  border:none;
+  border-radius: 15px;
+  transition: 2s all;
+  cursor: pointer;
+}
+
+.btn-enviar:hover{
+  background: rgb(206, 114, 3);
+  transform: scale(1.1);
+  
+  
+}
+
+/*tablas*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 40px 40px;
+  
+  
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  
+
+}
+
+th {
+  background-color: orange;
+  color: white;
+    
+  
+}
+

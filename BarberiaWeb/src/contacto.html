@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="shortcut icon" href="/img/tijeras.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1 class="title-principal">Barbería Vintage</h1>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Productos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </header>
+
+  <main>
+
+    <form>
+      <label for="nombreapellido">Nombre y Apellido</label>
+      <input type="text" id="nombreapellido" class="input-padre" required>
+
+      <label for="correoelectronico">Correo Electrónico</label>
+      <input type="email" id="correoelectronico" class="input-padre" required placeholder="ejemplo@dominio.com">
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" class="input-padre" required placeholder="(+xx) xxxxxx">
+
+      <label for="mensaje">Mensaje</label>
+      <textarea cols="70" rows="10" id="mensaje" class="input-padre" required> </textarea>
+
+      <div>
+        <p>¿Cómo le gustaria que lo contactemos?</p>
+        <label for="radio-email"><input type="radio" name="contact" value="email" id="radio-email">Email</label>
+
+
+        <label for="radio-telefono"><input type="radio" name="contact" value="telefono"
+            id="radio-telefono">Teléfono</label>
+
+
+        <label for="radio-whatsapp"><input type="radio" name="contact" value="whatsapp"
+            id="radio-whatsapp" checked >Whatsapp</label>
+
+      </div>
+
+      <div>
+        <p>¿En que horario que quieras ser atendido?</p>
+        <select>
+          <option>Mañana</option>
+          <option>Tarde</option>
+          <option>Noche</option>
+        </select>
+      </div>
+
+      <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la barbería vintage?</label>
+     
+      <input type="submit" value="Enviar formulario" class="btn-enviar">
+
+    </form>
+
+
+    <table>
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Horario de atención</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lunes</td>
+          <td>8:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Martes</td>
+          <td>8:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Miércoles</td>
+          <td>8:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Jueves</td>
+          <td>8:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Viernes</td>
+          <td>8:00 - 18:00</td>
+        </tr>
+        <tr>
+          <td>Sábado</td>
+          <td>9:00 - 13:00</td>
+        </tr>
+        <tr>
+          <td>Domingo</td>
+          <td>Cerrado</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+
+  <footer>
+    <img src="/img/logo-blanco.png" alt="logo-footer">
+    <p>
+    <p class="copyright">&copy; Todos los derechos reservados Barbería Vintage 2023</p>
+    </p>
+  </footer>
+</body>
+
+</html>
