@@ -57,6 +57,8 @@ nav a:hover {
   color: #333;
 }
 
+
+
 /* sección de contenido */
 main {
   display: flex;
@@ -95,4 +97,15 @@ main p {
   margin-top: 10px;
   font-size: 1.2em;  
   font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  background: url(../img/bg.jpg);  
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.copyright{
+  color: #fff;
 }

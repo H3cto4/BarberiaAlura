@@ -12,4 +12,12 @@ lis.forEach(li => {
     li.style.boxShadow = 'none';
     li.style.transform = 'scale(1)';
   });
+
+  lis.forEach(li => {
+    li.addEventListener('click', () => {
+      li.style.borderColor = '#088c19';
+      li.style.boxShadow = 'none';
+    });
+  });
+
 });
