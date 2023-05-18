@@ -140,7 +140,8 @@ th, td {
 th {
   background-color: orange;
   color: white;
-    
-  
 }
 
+.dia-domingo{
+  color: red;
+}
