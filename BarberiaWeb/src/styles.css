@@ -11,6 +11,8 @@
 .titulo-centrado{
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  
   
 }
 
@@ -90,18 +92,22 @@ a:hover {
 }
 
 .principal{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background-color: #D8D8D8;
   margin: 5px;
   border-radius: 10px;
-  padding: 20px
+  padding: 20px;
+  justify-content: center;
 }
 
 .logo{
-  width: 200px;
-  height: 200px;
-  margin-left: 800px;
-  margin-bottom: 50px;
-  margin-top: 0  auto;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
   
 }
 
@@ -149,7 +155,25 @@ ul{
 
 p{
   font-size: 1.2em;
+  text-align: center;
 }
+
+
+/* map styles*/
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh; /* Ajusta la altura según tus necesidades */
+}
+
+.map iframe {
+
+  margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+  
+}
+
 
 
 
