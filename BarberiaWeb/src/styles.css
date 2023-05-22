@@ -146,10 +146,12 @@ ul{
 }
 
 .img-diferencial{
-  width: 50%;
-  height: 50%;
+  width: 910px;
+  height: 540px;
   display: inline-block;
   border-radius: 10px;
+  justify-content: center;
+  
   
 }
 
@@ -166,6 +168,7 @@ p{
   align-items: center;
   flex-direction: column;
   height: 80vh; /* Ajusta la altura según tus necesidades */
+  
 }
 
 .map iframe {
@@ -175,8 +178,11 @@ p{
 }
 
 
-
-
+.video{
+  width: 900px;
+  height: 550px;
+  margin: 1em auto;
+}
 
 /*styles  for footer*/
 
