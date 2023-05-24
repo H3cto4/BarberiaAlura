@@ -92,6 +92,7 @@ a:hover {
 }
 
 .principal{
+  width: auto;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -179,6 +180,15 @@ h2 {
 .img-diferencial {
   width: 70%;
   border-radius: 10px;
+  box-shadow: 10px 10px 30px 15px #000;
+
+}
+
+.img-diferencial:hover{
+  opacity: 50%;
+  transform: scale(1.05);
+  transition: 2s;
+  
 }
 
 p{
@@ -225,3 +235,33 @@ footer{
 .copyright{
   color: #fff;
 }
+
+
+/* Aquí empiezan los mediaquerys del responsive desing*/
+@media only screen and (max-width: 480px) {
+
+  .title-principal{
+    text-align: center;
+
+  }
+
+  .navbar{
+    position: static;
+  }
+
+  .banner{
+    width: auto;
+  }
+
+  .logo{
+    position: absolute;
+  }
+
+
+  .title-principal, .principal, .map, .diferenciales, .video, .map{
+   width: auto;
+}  
+  
+}
+  
+  
