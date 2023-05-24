@@ -152,6 +152,7 @@ h2 {
 .lista-diferenciales {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos se envuelvan a una nueva línea si no caben en el ancho disponible */
+  flex-direction: column;
   justify-content: center;
   margin-bottom: 10px; /* Agrega un margen inferior para separar la lista de la imagen */
 }
@@ -238,30 +239,133 @@ footer{
 
 
 /* Aquí empiezan los mediaquerys del responsive desing*/
-@media only screen and (max-width: 480px) {
-
-  .title-principal{
-    text-align: center;
-
+/* Estilos para pantallas con un ancho máximo de 768px */
+@media screen and(max-width: 768px) {
+  header {
+    padding: 20px;
   }
-
-  .navbar{
-    position: static;
-  }
-
-  .banner{
-    width: auto;
-  }
-
-  .logo{
-    position: absolute;
-  }
-
-
-  .title-principal, .principal, .map, .diferenciales, .video, .map{
-   width: auto;
-}  
   
+  .title-principal {
+    margin-left: 20px;
+  }
+  
+  .navbar {
+    margin-right: 20px;
+  }
+  
+  .banner {
+    border-radius: 0;
+  }
+  
+  .principal {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .map {
+    height: 500px;
+  }
+  
+  .items {
+    margin-left: 0;
+  }
+  
+  .img-diferencial {
+    width: 90%;
+  }
+  
+  .video {
+    width: 100%;
+    height: 300px;
+  }
+  
+  footer {
+    padding: 20px;
+  }
 }
+
+/* Estilos para pantallas con un ancho máximo de 576px */
+@media screen and(max-width: 576px) {
+  .title-principal {
+    margin-left: 10px;
+  }
   
+  .navbar {
+    margin-right: 10px;
+  }
+  
+  .principal {
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    height: 400px;
+  }
+  
+  .img-diferencial {
+    width: 100%;
+  }
+  
+  .video {
+    width: 100%;
+    height: 200px;
+  }
+  
+  footer {
+    padding: 10px;
+  }
+}
+
+/* Estilos para pantallas con un ancho máximo de 320px */
+@media screen and(max-width: 320px) {
+  .title-principal {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+  
+  .navbar {
+    margin-right: 5px;
+  }
+  
+  .principal {
+    padding: 2px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .map {
+    height: 300px;
+  }
+  
+  .img-diferencial {
+    width: 100%;
+  }
+  
+  .video {
+    width: 100%;
+    height: 150px;
+  }
+  
+  footer {
+    padding: 5px;
+  }
+}
   
